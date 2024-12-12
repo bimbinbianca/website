@@ -1,0 +1,308 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding : 0px;
+    font-family : 'Inter';
+}
+
+.container{
+    width : 1100px;
+    margin : auto;
+    position: relative;
+}
+
+.menu{
+    float: right;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight : 800;
+    float: left;
+    font-family: courier;
+    color : #ACAD85;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #471B18;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    float : left;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: "Inter";
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+
+.informasi-produk{
+    background-color: #E5EEEC;
+    margin: auto;
+    display: flex;
+    position: -webkit-sticky;
+}
+
+.informasi-produk .opening{
+    padding-top: 15px;
+}
+
+.opening h1{
+    padding-left: 210px;
+}
+
+.opening p{
+    padding-left: 210px;
+}
+
+.gambar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 20%;
+}
+
+.gambar img{
+    width: 40%;
+    float: left;
+    padding: 20px 20px;
+    background-color: #F4F5C6;
+    position: relative;
+}
+
+.produk{
+    background-color: #A1BE93;
+}
+
+.produk h3{
+    color: white;
+    font-family: 'Inter';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gambar-produk{
+    margin: auto;
+    display: flex;
+    position: -webkit-sticky;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gambar-akar-bajaka img{
+   width: 420px;
+   height: 420px;
+   border-radius: 100%;
+   margin-left: 45%;
+}
+
+.gambar-bawang-dayak img{
+    width: 420px;
+    height: 420px;
+    border-radius: 100%;;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.judul-produk {
+    margin: auto;
+    display: flex;
+    position: -webkit-sticky;
+    color : white;
+    padding-bottom: 20px;
+}
+
+.judul-produk-akar-bajaka h1{
+    text-align: center;
+    margin-left: 297px;
+}
+
+.judul-produk-bawang-dayak h1{
+    margin-left: 498px;
+    position: absolute;
+}
+
+.khasiat{
+    background-color: #f2f1f1;
+}
+
+.khasiat h3{
+    color: #ACAD85;
+    font-family: 'Inter';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.khasiat-akar-bajaka{
+    margin: auto;
+    display: flex;
+    position: -webkit-sticky;
+    padding-left: 10%;
+    padding-top: 30px;
+}
+
+.khasiat-akar-bajaka img{
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.khasiat-akar-bajaka p{
+    font-size: 20px;
+    font-family: 'Inter';
+    position: relative;
+    padding-top: 120px;
+    padding-left: 20px;
+    color: #471B18;
+}
+
+.khasiat-bawang-dayak{
+    margin: auto;
+    display: flex;
+    position: -webkit-sticky;
+    padding-left: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.khasiat-bawang-dayak img{
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
+    position: relative;
+    padding-left:20px;
+}
+
+.khasiat-bawang-dayak p{
+    font-size: 20px;
+    position: relative;
+    padding-top: 120px;
+    color: #471B18;
+}
+
+.konsumsi {
+    background-color: #B7B78A;
+    font-family: 'Inter';
+    padding-bottom: 20px;
+}
+
+.konsumsi h1{
+    font-family: 'Inter';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: #E5F9DB;
+    padding-bottom: 20px;
+}
+
+.cara-konsumsi-akar-bajaka{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f1f1;
+    border-radius: 12px;
+    padding: 2rem 2rem;
+    padding-top: 20px;
+    margin-right: 50%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.cara-konsumsi-akar-bajaka h2{
+    color : #3C2A21;
+    font-family: 'Inter';
+}
+
+.cara-konsumsi-akar-bajaka h3{
+    font-family: 'Inter';
+}
+
+.cara-konsumsi-bawang-dayak{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f1f1;
+    border-radius: 12px;
+    padding: 2rem 2rem;
+    margin-left: 700px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.cara-konsumsi-bawang-dayak h2{
+    color: #3C2A21;
+}
+
+.kontak{
+    background-color: #C4C4C4;
+    margin: auto;
+    display: flex;
+    position: -webkit-sticky;
+    padding-bottom: 60px;
+}
+
+.kontak h4{
+    padding-top: 40px;
+    font-size: 40px;
+    padding-left: 160px;
+}
+
+.kontak p{
+    font-size: 20px;
+    padding-left: 160px;
+    padding-top: 6px;
+}
+
+.via-contact{
+    padding-top: 60px;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.tbl-green a.tbl-whatsapp{
+    background:#76FF94;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 50px 15px 50px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-hijau{
+    margin-top: 40px;
+}
+
+.tbl-hijau a.tbl-phone{
+    background:#7DFF16;
+    border-radius: 20px;
+    padding: 15px 74px 15px 74px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
